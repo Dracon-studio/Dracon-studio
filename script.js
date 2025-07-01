@@ -6,7 +6,7 @@ const translations = {
     addComment: "Add Comment",
     edit: "✏️ Edit",
     report: "⚠️ Report",
-    rights: "© 2025 All rights reserved.",
+    rights: "© 2025 All rights belong to the original authors.",
     placeholder: "Write a comment..."
   },
   ua: {
@@ -16,7 +16,7 @@ const translations = {
     addComment: "Додати коментар",
     edit: "✏️ Редагувати",
     report: "⚠️ Поскаржитись",
-    rights: "© 2025 Всі права належать авторам.",
+    rights: "© 2025 Всі права належать оригінальним авторам.",
     placeholder: "Напиши коментар..."
   }
 };
