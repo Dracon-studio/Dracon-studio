@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>My Local YouTube</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header>
+    <nav>
+      <select id="languageSwitcher">
+        <option value="en">English</option>
+        <option value="ua">Українська</option>
+      </select>
+      <a href="#" id="navHome">Home</a>
+      <a href="#" id="navSupport">Support Us</a>
+    </nav>
+  </header>
+
+  <main>
+    <section class="video-section">
+      <iframe src="https://player.vimeo.com/video/123456789" width="640" height="360" frameborder="0" allowfullscreen></iframe>
+      <div class="reaction-buttons">
+        <button id="likeBtn">👍 0</button>
+        <button id="dislikeBtn">👎 0</button>
+      </div>
+    </section>
+
+    <section class="comments-section">
+      <h2 id="commentsTitle">Comments</h2>
+      <textarea id="commentInput" placeholder="Write a comment..."></textarea>
+      <button id="addCommentBtn">Add Comment</button>
+      <div id="commentsList"></div>
+    </section>
+  </main>
+
+  <footer>
+    <p id="footerRights">© 2025 All rights reserved.</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
